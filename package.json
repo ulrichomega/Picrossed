@@ -1,0 +1,21 @@
+{
+  "name": "picrossed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/main.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ulrichomega/Picrossed.git"
+  },
+  "author": "ulrichomega",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ulrichomega/Picrossed/issues"
+  },
+  "homepage": "https://github.com/ulrichomega/Picrossed#readme"
+}
