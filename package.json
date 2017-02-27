@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "./dist/main.js",
-  "dependencies": {},
+  "dependencies": {
+    "@types/lodash": "^4.14.53",
+    "lodash": "^4.17.4"
+  },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-tslint": "^7.1.0",
