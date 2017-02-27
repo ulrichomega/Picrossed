@@ -1,7 +1,13 @@
 {
     "compilerOptions": {
+        "alwaysStrict": true,
+        "listEmittedFiles": true,
         "noEmitOnError": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
         "outDir": "./dist",
+        "pretty": true,
         "target": "es5"
     },
     "include": [
@@ -9,5 +15,6 @@
     ],
     "exclude": [
         "node_modules/**/*"
-    ]
+    ],
+    "compileOnSave": true
 }
