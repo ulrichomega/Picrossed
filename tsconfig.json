@@ -2,6 +2,7 @@
     "compilerOptions": {
         "alwaysStrict": true,
         "listEmittedFiles": true,
+        "moduleResolution": "node",
         "noEmitOnError": true,
         "noImplicitAny": true,
         "noImplicitReturns": true,
