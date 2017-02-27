@@ -7,7 +7,7 @@
         "noImplicitAny": true,
         "noImplicitReturns": true,
         "noImplicitThis": true,
-        "outDir": "./dist",
+        "outDir": "dist",
         "pretty": true,
         "target": "es5"
     },
