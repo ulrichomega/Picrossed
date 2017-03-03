@@ -11,7 +11,11 @@ gulp.task("tslint", function() {
     return tsProject.src().pipe(tslint()).pipe(tslint.report());
 });
 
-gulp.task("default", ["tslint"], function() {
+gulp.task("build", ["tslint"], function() {
     //what is this doing?
     return tsProject.src().pipe(tsProject()).js.pipe(gulp.dest("dist"));
+});
+
+gulp.task("default", ["tslint", "build"], function() {
+    
 });
